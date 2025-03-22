@@ -1,0 +1,1 @@
+// ini jasrcipt eksternal
