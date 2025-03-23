@@ -1,0 +1,50 @@
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.main-header {
+    margin: 0px;
+    background-color: lightskyblue;
+    padding: 24px;
+    text-align: center;
+}
+
+.main {
+    margin: 15px;
+    background-color: lightgray;
+    padding: 10px;
+    text-align: center;
+}
+
+.nav-fitur {
+    display: flex;
+    flex-direction: column;
+}
+
+.persegi {
+    background-color: aqua;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.persegipanjang {
+    background-color: greenyellow;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.section-header {
+    background-color: bisque;
+    padding: 30px;
+}
+
+.section {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.section-img {
+    background-image: url(../assets/persegi.png);
+    margin: 10px;
+    
+}
