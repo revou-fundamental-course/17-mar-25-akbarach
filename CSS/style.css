@@ -1,50 +1,98 @@
 body {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #F2E2B1;
 }
 
 .main-header {
-    margin: 0px;
-    background-color: lightskyblue;
+    color: white;
+    margin: 15px;
+    background-color: #1572A1;
     padding: 24px;
     text-align: center;
+    
 }
 
 .main {
     margin: 15px;
-    background-color: lightgray;
+    background-color: #FFF7D1;
     padding: 10px;
     text-align: center;
+    border: solid;
+    border-radius: 5px;
 }
 
 .nav-fitur {
     display: flex;
     flex-direction: column;
+    padding-inline: 200px;
 }
 
+/* link persegi */
 .persegi {
-    background-color: aqua;
+    background-color: #A1E3F9;
     padding-top: 20px;
     padding-bottom: 20px;
+    margin-bottom: 10px;
+    border: solid;
+    border-radius: 50px;
+    font-size: x-large;
 }
 
+/* link persegi panjang */
 .persegipanjang {
-    background-color: greenyellow;
+    background-color: #9CF196;
     padding-top: 20px;
     padding-bottom: 20px;
-}
-
-.section-header {
-    background-color: bisque;
-    padding: 30px;
+    margin-bottom: 10px;
+    border: solid;
+    border-radius: 50px;
+    font-size: x-large;
 }
 
 .section {
     margin-top: 10px;
     margin-bottom: 10px;
+    border-style: outset ;
+    border-radius: 20px;
+}
+
+.section-header {
+    background-color: #A2D2DF;
+    padding: 30px;
+    border-bottom: solid;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
 }
 
 .section-img {
     background-image: url(../assets/persegi.png);
-    margin: 10px;
+    margin: 15px;
     
+}
+
+.rumus-persegi {
+    text-align: justify;
+    margin-left: 10px;
+}
+
+.rumus-persegipanjang {
+    text-align: justify;
+    margin-left: 10px;
+}
+
+.rumus {
+    text-align: center;
+    margin-left: 0px;
+}
+
+.footer {
+    text-align: center;
+    margin: 15px;
+    padding: 20px;
+    background-color: #E4E0E1;
+    border-style: inset;
+    border-radius: 5px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+    text-decoration: underline;
 }
