@@ -48,12 +48,15 @@
             </div>
             <hr>
             <div>
-                <h3>Hitung Luas Persegi Panjang</h3>
+                <h2>Hitung Luas Persegi Panjang</h2>
                 <form action="">
-                <label for="luas">masukan angka disini</label>
-                <input type="number" id="luas">
+                <input type="number" id="panjangluasPersegiPanjang" placeholder="Masukan panjang" class="input">
                 <br>
-                <button class="button">Hitung</button>
+                <input type="number" id="lebarluasPersegiPanjang" placeholder="Masukan lebar" class="input">
+                <button class="buttonHitung" onclick="hitungluasPersegiPanjang()">Hitung</button>
+                <br>
+                <button class="buttonReset" onclick="resetluasPersegiPanjang()">Reset</button>
+                <div id="hasilluasPersegiPanjang"></div>
                 </form>
             </div>
         </section>
@@ -77,12 +80,15 @@
             </div>
             <hr>
             <div>
-                <h3>Hitung Keliling Persegi Panjang</h3>
+                <h2>Hitung Keliling Persegi Panjang</h2>
                 <form action="">
-                <label for="luas">masukan angka disini</label>
-                <input type="number" id="luas">
+                <input type="number" id="panjangkelilingPersegiPanjang" placeholder="Masukan panjang" class="input">
                 <br>
-                <button class="button">Hitung</button>
+                <input type="number" id="lebarkelilingPersegiPanjang" placeholder="Masukan lebar" class="input">
+                <button class="buttonHitung" onclick="hitungkelilingPersegiPanjang()">Hitung</button>
+                <br>
+                <button class="buttonReset" onclick="resetkelilingPersegiPanjang()">Reset</button>
+                <div id="hasilkelilingPersegiPanjang"></div>
                 </form>
             </div>
         </section>
@@ -92,5 +98,8 @@
     <footer class="footer">
         <p>Made by Akbar Rachmat Syafarudin</p>
     </footer>
+
+    <!-- link javascript -->
+     <script src="JS/script.js"></script>
 </body>
 </html>

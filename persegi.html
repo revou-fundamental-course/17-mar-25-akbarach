@@ -46,11 +46,13 @@
             </div>
             <hr>
             <div>
-                <h3>Hitung Luas Persegi</h3>
-                <label for="luas">masukan angka disini</label>
-                <input type="number" id="luas">
+                <h2>Hitung Luas Persegi</h2>
+                <input type="number" id="luasPersegi" placeholder="Masukan angka" class="input">
                 <br>
-                <button class="button">Hitung</button>
+                <button class="buttonHitung" onclick="hitungLuas()">Hitung</button>
+                <br>
+                <button class="buttonReset" onclick="resetLuasPersegi()">Reset</button>
+                <div id="hasilLuas" class="hasilLuasPersegi"></div>
             </div>
         </section>
 
@@ -72,11 +74,13 @@
                 <p>S = Sisi</p>
             </div>
             <div>
-                <h3>Hitung Keliling Persegi</h3>
-                <label for="keliling">masukan angka disini</label>
-                <input type="number" id="keliling">
+                <h2>Hitung Keliling Persegi</h2>
+                <input type="number" id="kelilingPersegi" placeholder="Masukan angka" class="input">
                 <br>
-                <button class="button">Hitung</button>
+                <button class="buttonHitung" onclick="hitungKeliling()">Hitung</button>
+                <br>
+                <button class="buttonReset" onclick="resetKeliling()">Reset</button>
+                <div id="hasilKeliling" class="hasilKelilingPersegi"></div>
             </div>
         </section>
     </main>
@@ -85,5 +89,7 @@
     <footer class="footer">
         <p>Made by Akbar Rachmat Syafarudin</p>
     </footer>
+
+    <script src="JS/script.js"></script>
 </body>
 </html>
