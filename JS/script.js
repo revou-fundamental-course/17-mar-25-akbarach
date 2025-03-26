@@ -56,9 +56,9 @@ function hitungluasPersegiPanjang() {
     
     if (panjang > 0 && lebar > 0) {
         document.getElementById("hasilluasPersegiPanjang").innerHTML = `
-            <p>L =  P × L</p>
-            <p>L = ${panjang} × ${lebar}</p>
-            <p>L = ${luas(panjang, lebar)}</p>
+            <p>L =  P x L</p>
+            <p>L = ${panjang} x ${lebar}</p>
+            <p>L = ${luasPersegiPanjang(panjang, lebar)}</p>
         `;
     } else {
         alert("Masukkan angka yang benar!");
